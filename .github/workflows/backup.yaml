@@ -2,8 +2,9 @@ name: Backup Firestore
 
 on:
   schedule:
-    - cron:  '0 0 * * *'
-
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  
 env:
   PROJECT_ID: firebase-0nk01n
   BUCKET: gs://backup-whole-database
