@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: firebase-0nk01n
-  BUCKET: gs://backup-whole-database
+  BUCKET: gs://back-database
   
 jobs:
   backup:
